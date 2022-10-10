@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap");
-@import "./partials/_vars.scss";
-@import "./partials/_header.scss";
-@import "./partials/_main.scss";
-@import "./partials/_footer.scss";
+@import "./partials/vars.scss";
+@import "./partials/header.scss";
+@import "./partials/main.scss";
+@import "./partials/footer.scss";
+@import "./partials/comic-details";
 
 * {
     margin: 0;

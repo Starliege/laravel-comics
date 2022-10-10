@@ -5,8 +5,10 @@
     <h2>Current Series</h2>
     @foreach ($comics as $key => $value)
       <div class="comic">
-        <img src="{{ $value['thumb'] }}" alt="{{ $value['title'] }}" />
-        <h5>{{ $value['title'] }}</h5>
+        <a style="text-decoration: none; color: white;" href="{{route('comic.details', $loop->index)}}">
+          <img src="{{ $value['thumb'] }}" alt="{{ $value['title'] }}" />
+          <h5>{{ $value['title'] }}</h5>
+        </a>
       </div>
     @endforeach
   </div>
