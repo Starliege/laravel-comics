@@ -69,4 +69,13 @@ main {
             text-transform: uppercase;
         }
     }
+
+    .comic:hover {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        transition: transform 0.5s;
+        h5 {
+            font-weight: bold;
+        }
+    }
 }

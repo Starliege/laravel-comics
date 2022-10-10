@@ -109,6 +109,15 @@ main .comic h5 {
   text-transform: uppercase;
 }
 
+main .comic:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s;
+}
+
+main .comic:hover h5 {
+  font-weight: bold;
+}
+
 section.top {
   padding: 30px 0;
   background: #0282f9;
